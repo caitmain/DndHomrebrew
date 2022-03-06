@@ -1,0 +1,835 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Expleda",
+                "abbreviation": "ELE",
+                "full": "Expleda's Literary Expansion",
+                "authors": [
+                    "The Hidden One"
+                ],
+                "convertedBy": [
+                    "Rin#5654"
+                ],
+                "version": "1.0",
+                "color": "15ECFA",
+                "url": "https://www.gmbinder.com/share/-Lym8JM-j-t6vFOfBs8q",
+                "targetSchema": "1.2"
+            }
+        ],
+        "itemProperty": [
+            {
+                "abbreviation": "AAS",
+                "source": "Expleda",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Artificial Arcane Soul",
+                        "entries": [
+                            "This item is connected to the AAS network. It uses magic by emulating a soul."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "damageType": [
+            {
+                "abbreviation": "U",
+                "source": "Expleda",
+                "name": "True"
+            }
+        ],
+        "dateAdded": 1615908595,
+        "dateLastModified": 1615908595
+    },
+    "item": [
+        {
+            "name": "Armor of the Deceiver",
+            "source": "Expleda",
+            "page": "0",
+            "type": "LA",
+            "rarity": "very rare",
+            "baseItem": "leather armor|PHB",
+            "entries": [
+                "Once per long rest, the wielder of this armor can cast {@spell disguise self} with a spell save DC of 20. Any target that seeks to discern if the target is not as they seem takes a disadvantage to their {@skill Investigation} roll."
+            ],
+            "attachedSpells": [
+                "disguise self"
+            ],
+            "fluff":{
+                "entries":[
+                "By harvesting the flesh of long dead changelings and tanning their hides, the wielder of this armor can create an almost perfect disguise for themselves."
+                ]
+            },
+            "hasFluff":true,
+            "charges": 1,
+            "recharge": "restLong",
+            "ac": 11,
+            "reqAttune": true,
+            "weight": 10
+        },
+
+        {
+            "name":"Bedlah of Pravesh",
+            "source": "Expleda",
+            "page":"0",
+            "type":"LA",
+            "rarity": "legendary",
+            "baseItem": "studded leather armor|PHB",
+            "entries":[
+                "Any creature wearing this armor and attuned to it gain the following benefits:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "columns": 0,
+                    "items": [
+                        "While wearing The Bedlah of Pravesh, the creature's armor class is equal to 14 + Dexterity modifier + Charisma modifier.",
+                        "All spells the creature casts that involve mental manipulation in some form (check with your DM) have their spell save DC increased by 2.",
+                        "All Charisma checks (not saves) for the creature have advantage."
+                    ]
+                }
+            ],
+            "reqAttune": true,
+            "ac": 14,
+            "bonusAC": "+ Cha",
+            "hasFluff":true,
+            "fluff":{
+                "entries":[
+                    "The outfit worn by the legendary human belly dancer known as Pravesh.",
+                    "Once the most well-known performer during the height of The Ula Golden Age, Pravesh was known to captivate entire cities and manipulate governments with her performances."
+                ]
+            }
+
+
+        },
+
+        {
+            "name": "Quitaren Clock-Plate ver.1",
+            "source": "Expleda",
+            "page":"0",
+            "type":"LA",
+            "rarity":"artifact",
+            "entries":[
+                {
+                    "name":"Light",
+                    "type":"entries",
+                    "entries":[
+                        "This armor is treated like light armor despite its weight."
+                    ]
+                }
+            ],
+            "fluff":{
+                "entries":[
+                    "Crafted exclusively inside the borders of Quitaren and even more exclusively sold to close friends, allies, or wealthy buyers, the Quitaren Clock-Plate is truly a masterpiece of Quitaren engineering.",
+                    "Appearing as regular full-plate armor, this new iteration holds a tactical advantage.",
+                    "Inside the armor is a collection of pulleys, cogs, and miniaturized steam engines that pull sections of the armor away from the joints of the combatant during complex movement.",
+                    "Furthermore, the armor is made out of lighter materials, allowing it to still be used on stealth missions with ease.", 
+                    "For those especially seeking the ultimate armor, there is also several modifications that can be made to make each soldier a walking death machine."
+                ]
+            },
+            "value":500000,
+            "weight": 60,
+            "ac": 18,
+            "strength": 15
+        },
+
+        {
+            "name": "Robes of The Old God",
+            "source":"Expleda",
+            "page":"0",
+            "type":"LA",
+            "rarity":"artifact",
+            "entries":[
+                "To keep its host alive, it grants the following effects:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "columns": 0,
+                    "name": "",
+                    "items": [
+                        {
+                            "type": "item",
+                            "entries": [
+                                "1/long rest, as a reaction action, the creature will lash out to defend its host with a flurry of tentacles and bites. The opponent must make a DC 18 Dexterity save or suffer {@damage 8d6} piercing damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "entries": [
+                                "The creature has a form of active camouflage, granting the user advantage on Dexterity, {@skill Stealth}, checks."
+                            ]
+                        },
+                        {
+                            "type":"item",
+                            "entries":[
+                                "1/long rest, as a bonus action, the robes can pump some healing fluids into the host to keep them alive. The host body heals {@damage 4d12} damage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fluff":{
+                "entries":[
+                "While appearing as normal robes from the outside, the Robes of The Old God is actually a living creature composed of a mass of tentacles and gapping mouths.",
+                "It latches onto the target by biting into their flesh, continuously feeding on it to stay alive." 
+                ]
+            },
+            "charges": 2,
+            "recharge": "restLong",
+            "ac": 14,
+            "weight": 5
+        },
+
+        {
+            "name": "Arcane Musket",
+            "source":"Expleda",
+            "page":"0",
+            "dmg1": "Based on spell",
+            "dmgType": "varies",
+            "property": [
+				"2H", "S"
+			],
+            "type":"R",
+            "range": "40/120",
+            "rarity": "rare",
+            "entries":[
+                "The crystal ball and the metal grip act as a spell focus. Once the user casts their spell, it is stored within the crystal orb and surrounded by a magical shell that emulates the environment found within the mortal soul. Once fired, the spell will travel in this shell until impacting its target, in that very moment bursting onto the target.",
+                "The wielder of this weapon is unable to apply their Spell Attack Modifier, instead making a Ranged Weapon Attack on the target."
+            ],
+            "fluff":{
+                "entries":[
+                    "Another Quitaren exclusive, the Arcane Musket is a piece of technology once thought impossible by modern artificers. However, through some unknown means, the Quitaren soldiers were found deploying these weapons on mass during The Elven War.",
+                    "Seeming to be of simple construction, the Arcane Musket appears as nothing more than a long steel barrel affixed to a clear crystal orb, the orb itself surrounded by steel and connected to a metal handle. However, the Arcane Musket has one special attribute to it: the ability to turn any limited range spell into a long-range variant."
+                ]
+            },
+            "focus": true,
+            "value": 300000,
+            "weight": 10
+        },
+
+        {
+            "name": "Arcane Musket mk. II",
+            "source":"Expleda",
+            "page": "0",
+            "type": "R",
+            "dmg1":"Based on spell",
+            "dmgType":"varies",
+            "property":[
+                "2H","S"
+            ],
+            "range": "80/240",
+            "rarity": "very rare",
+            "entries":[
+                "An improvement upon the original in every way, The Quitaren Artificers have found a way to better improve the connection between the device and the spellcaster.",
+
+                "The crystal ball once affixed to the barrel of the musket has been replaced with a complex mechanism capable of replicating the exact conditions of the user's own soul, allowing for the user to put their own potent spellcasting power behind each shot. Not only does this grant this version superior punching power, but also enhances the range of all spells cast from it.",
+                {
+                    "type": "entries",
+                    "name": "Improved",
+                    "entries": [
+                        "This improved Arcane Musket allows for the spellcaster to apply their spellcasting statistic modifier to their Ranged Weapon Attack."
+                    ]
+                }
+            ],
+            "focus":true,
+            "value": 500000,
+            "weight": 12
+        },
+        {
+            "name": "Ahkir",
+            "source":"Expleda",
+            "baseItem": "greatsword|PHB",
+            "page": 0,
+            "rarity": "legendary",
+            "type": "M",
+            "sword": true,
+            "dmg1": "2d6",
+            "dmgType": "S",
+            "bonusWeapon": "+3",
+            "reqAttune":true,
+            "charges": "5",
+            "recharge": "dawn",
+            "entries":[
+                "Ahkir is a +3 greatsword and has 5 charges. While attuned to it, you can expend 1 charge and a {@action attack| PHB | melee attack} with Ahkir. If the attack hits, Ahkir causes the wounds inflicted to the creature to worsen as it glows a dark red and emits a loud wail.",
+                "The creature must make a Constitution saving throw or suffer an additional {@damage 1d6} damage for every increment of 20 hit points below their total hit point maximum. Ahkir regains {@damage 1d4+1} charges daily at dawn."
+            ],
+            "fluff": {
+                "entries": [
+                    "Passed down through the generations by a particular Nezcroman tribe, Ahkir (roughly translated to mean \"ending\") has been traditionally wielded by the strongest warrior of its clan and has cut down innumerable foes. Due to this long history of violence, Ahkir has the ability to force a body closer to death based on how hurt a creature already is."
+                ]
+            },
+            "hasFluff": true,
+            "property":[
+                "H", "2H"
+            ],
+            "weaponCategory":"Martial"
+        },
+
+        {
+            "name": "Battle Bongos",
+            "source": "Expleda",
+            "page": 0,
+            "rarity": "very rare",
+            "type": "SCF",
+            "reqAttune": true,
+            "entries":[
+                "As an action, a creature can begin to play the Battle Bongos. The creature makes a {@skill Performance} check and each creature within a 20ft radius of the creature suffer {@damage 1d6} thunder damage for every increment of 5 on the creature's performance check.",
+
+                "The creature can exclude a number of creatures from the harmful effects of the Battle Bongos equal to their Charisma modifier."
+            ],
+            "fluff":{
+                "entries":[
+                    "These bongos were crafted long ago by an equally unknown as well as legendary drum-smith. Seeking to bring the very power of the dual, miniaturized drums to life through the beat of battle, the drum-smith used the hides of magical bats that were known for using tangible and offensive echolocation to transfer said properties to the bongos."
+                ]
+            },
+            "focus":true
+        },
+        
+        {
+            "name": "Gauntlets of Isiteshi",
+            "source": "Expleda",
+            "page": 0,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "type": "M",
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "weaponCategory": "Simple",
+            "property":[
+                "F"
+            ],
+            "entries":[
+                "As a reaction, the wielder of this weapon can absorb up to 1d6 per level elemental damage into Isiteshi. If this would reduce the damage to 0, the wielder absorbs the effect or spell and can then redirect it immediately or hold the effect or spell using concentration, later releasing it as a bonus action for half of the total damage stored.",                
+                "The effect or spell can be released usually in the method it was originally casted in, but any area-of-effect spells are instead released as cones of the same range. The saving throw for this effect is equal to 8 + Proficiency Bonus + the wielder's dexterity bonus.",
+                "The damage types that Isiteshi can absorb are the following: acid, cold, fire, lightning, and bludgeoning attacks originating from water/earth-based spells or sources.",
+                "The wielder can use this effect a number of times per day equal to their total level divided by three rounded up."
+            ],
+            "fluff":{
+                "entries":[
+                    "Crafted by a long forgotten smith in an even longer forgotten land, The Gauntlets of Isiteshi were wielded by a man of the same name. Combating powerful and rogue primordial elementals and their powerful magics derived from creation itself, Isiteshi wielded these gauntlets to absorb their power and redirect it back at them.",
+                    "These gauntlets allow the wielder to absorb and then redirect elemental effects and spells back at their original caster or origin."
+                ]
+            },
+            "hasFluff": true,
+            "bonusWeapon": "+3"
+        },
+        
+        {
+            "name": "Longbow of Storms",
+            "source":"Expleda",
+            "page": 0,
+            "baseItem": "longbow |PHB",
+            "rarity":"legendary",
+            "reqAttune":true,
+            "type":"R",
+            "range": "150/600",
+            "dmg1":"1d8",
+            "dmgType": "P",
+            "property":[
+                "A", "2H", "H"
+            ],
+            "ammunition": true,
+            "weaponCategory":"Martial",
+            "entries":[
+                "You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+                "1/long rest, the user can, as a bonus action, create a massive gust of wind from the weapon or from a point the user can see within 30ft. Any target within a 15ft radius of the wielder must make a DC 20 Dexterity Save or be pushed back 20ft and knocked prone.",
+                "3/short rest, the wielder can infuse a gust of wind into one of their arrows fired from this longbow as a bonus action. On a successful ranged attack and a failed DC 20 Dexterity Save, the target is sent backwards 15ft and knocked prone."
+            ],
+            "fluff":{
+                "entries":[
+                    "This Longbow was crafted from the bones of one of Scutzu's most devoted followers turned air elemental. By harnessing the mighty winds stored inside the bones, the user can create massive gusts of wind."
+                ]
+            },
+            "hasFluff": true
+        },
+
+        {
+            "name": "Raikojo, Katana of Lightning",
+            "source":"Expleda",
+            "page":0,
+            "type":"M",
+            "rarity":"legendary",
+            "bonusWeapon": "+3",
+            "entries":[
+                "Raikojo is a +3 magic weapon. It has several abilities listed below.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "name": "Lightning Incarnate",
+                            "type":"item",
+                            "entries":[
+                                "While wielding Raikojo, a creature becomes immune to lightning damage, has their movement speed doubled, and does not provoke attacks of opportunity when moving. In addition, a creature using Raikojo transforms into a bolt of lightning while moving, with any creatures they pass through suffering 1d8 lightning damage."
+                            ]
+                        },
+                        {
+                            "name": "Lightning Reflexes",
+                            "type":"item",
+                            "entries":[
+                                "The creature can, as a reaction, turn themselves into lightning to evade an enemy attack. In addition, a creature must make a Dexterity Saving Throw with a DC equal to 11 + Proficiency Bonus + Wielder's Dexterity Bonus or suffer a number of d10 lightning damage equal to half the creature's level. This can be done 3 times per Long Rest."
+                            ]
+                        },
+                        {
+                            "name": "Lightning Invoker",
+                            "type": "item",
+                            "entries":[
+                                "The creature can, as an action, cast {@spell lightning bolt} from Raikojo. The Spell Save DC is equal to 11 + Proficiency Bonus + The creature's highest mental stat. This can be done 3 times per long rest."
+                            ]
+                        },
+                        {
+                            "name": "Storm Caller",
+                            "type":"item",
+                            "entries":[
+                                "The creature can, as an action, summon the storm within Raikojo to cast {@spell lightning bolt} at their foes within a 30ft radius of where they stand. Each targeted creature must make a Dexterity Saving Throw with a DC equal to 11 + Proficiency Bonus + The creature's highest mental stat. The spell is cast at a level equal to half the creature's level. This can be done once per long rest."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "dmg1": "2d8+2d8",
+            "dmgType": "slashing and lightning",
+            "dmg2": "2d10",
+            "attachedSpells":[
+                "lightning bolt"
+            ],
+            "property":[
+                "F", "S", "L", "V"
+            ]
+        },
+        {
+            "name": "Sword of Desolation",
+            "source": "Expleda",
+            "baseItem": "greatsword|PHB",
+            "page": 0,
+            "sword": true,
+            "dmg1": "2d6",
+            "dmgType": "S",
+            "type": "M",
+            "weaponCategory":"Martial",
+            "rarity": "legendary",
+            "bonusWeapon":"+3",
+            "entries":[
+                "On a successful  {@action attack| PHB | melee weapon attack}, the target must make a DC 20 Constitution save or suffer {@damage 2d10} necrotic damage. \n",
+                "You gain a +3 bonus to attack and damage rolls made with this magic weapon."
+            ],
+            "fluff":{
+                "entries":[
+                    "A greatsword crafted with serrated edges surronding the entirety of its blade. These serrated edges have been created from the sharpened teeth of a vanquished lich and still contain its necrotic power."
+                ]
+            },
+            "hasFluff": true,
+            "reqAttune":true,
+            "property":[
+                "2H", "H"
+            ]
+        },
+        {
+            "name": "Veranderend",
+            "source": "Expleda",
+            "baseItem": "heavy crossbow|PHB",
+            "page": 0,
+            "type": "R",
+            "range": "100/400",
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "weaponCategory": "Martial",
+            "rarity": "legendary",
+            "bonusWeapon":"+3",
+            "entries": ["The Veranderend is a +3 heavy crossbow.",
+                "As a bonus action, the user of The Veranderend may shift the material or element that the crossbow bolt within it is made of, thereby changing its damage type."
+                ,"The material or element must be one known to the wielder in order for The Veranderend to manipulate the bolt into said material or element."
+            ],
+            "fluff":{
+                "entries":[
+                    "One of many Quitaren prototypes created during the Elven War that never saw mass production and adaption, The Veranderend is a heavy crossbow constructed using a composite copper and gold alloy. What makes the weapon truly unique in its design is that the stock, stirrup, trigger, and exit point for the bolt are all constructed with a clear metal ore that serves as a containment and focusing chamber for the user's internal magic contained within their soul.",
+                    "Once the user of The Veranderend puts their finger onto the trigger, a crossbow bolt materializes inside of the chamber. Using thought alone, the user communicates with The Veranderend as the weapon itself reshapes the bolt with different components or elements, allowing The Veranderend to fire bolts constructed out of fire, water, and even psionic impressions."
+                ]
+            },
+            "hasFluff": true,
+            "reqAttune": true,
+            "property":["2H","H"]
+        },
+        {
+            "name": "Alchemist's Abacus",
+            "source": "Expleda",
+            "page":0,
+            "rarity": "legendary",
+            "wondrous": true,
+            "entries":[
+                "This abacus can produce any item the user desires as long as they know it exists and it is not bound by any magical means to remain in its location.",
+                "Whatever item desired must be traded (or equivalently exchanged) with an item or items of equal or greater value.",
+                "The process of converting items into the desired item is a 1 hour process and can be done an unlimited amount of times per day. However, each exchange requires its own 1 hour process."
+            ],
+            "fluff":{
+                "entries":[
+                    "A once ordinary abacus enchanted long ago by a Corrupted Mortal with his own hidden knowledge regarding his world's version of alchemy"
+                ]
+            },
+            "hasFluff": true
+        },
+        {
+            "name": "Boots of a Fallen Angel's Flight",
+            "source":"Expleda",
+            "page": 0,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries":[
+                "1/long rest, the wielder can tap them together to gain the ability to fly at their normal movement speed for 1 minute as a bonus action.",
+                "After one minute, the wielder will slowly descent to the ground at a pace of 5 feet per six seconds."
+            ],
+            "fluff":{
+                "entries":[
+                    "Using angel feathers harvested from fallen angels of Preti, these boots have been affixed with bloodied white feathers."
+                ]
+            },
+            "hasFluff": true,
+            "charges": 1,
+            "recharge":"dawn"
+        },
+        {
+            "name":"Bone of the Old God",
+            "source":"Expleda",
+            "page":0,
+            "rarity": "artifact",
+            "reqAttune":true,
+            "entries":[
+                "When wielded by a Warlock following the Great Old One, this staff can be used 3/long rest to activate one of these various effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "name": "Eldritch Rejuvenation",
+                            "type":"item",
+                            "entries":[
+                                "Restore a single spell slot"
+                            ]
+                        },
+                        {
+                            "name": "Plague",
+                            "type":"item",
+                            "entries":[
+                                "A creature within line of sight becomes afflicted with an incurable poison. Once activated and each turn after, the target takes 1d10 poison damage. This effect can be maintained with concentration."
+                            ]
+                        },
+                        {
+                            "name": "Madness",
+                            "type": "item",
+                            "entries":[
+                                " A creature within line of sight must make a Wisdom save or go mad, the effects of said madness manifesting at DM discretion. This effect can be maintained with concentration."
+                            ]
+                        },
+                        {
+                            "name": "Death",
+                            "type":"item",
+                            "entries":[ 
+                                "A creature within line of sight begins to suffer a premature death. Upon a failed death save, the creature takes at first 1d4 damage, then 1d6 damage on the next round, 1d8 the next, and so on and so on further up the dice chain. This effect can be maintained with concentration."
+                            ]
+                        },
+                        {
+                            "name": "Greed",
+                            "type":"item",
+                            "entries":[
+                                "A container within line of sight has all of its contents emptied into your inventory OR you may choose a creature within line of sight that must make a Dexterity saving throw or lose one item on their person that you can see that is teleported into your inventory."
+                            ]
+                        },
+                        {
+                            "name":"Lust",
+                            "type":"item",
+                            "entries":[
+                                "A creature within line of sight of you must make a Charisma saving throw or be romantically charmed to the Warlock for 1 hour. The creature will do anything the creature asks of it within reason as well as be physically intimate with the Warlock or harm themself for their pleasure. This effect can be maintained with concentration."
+                            ]
+                        },
+                        {
+                            "name":"Rage",
+                            "type":"item",
+                            "entries":[
+                                "A creature within line of sight must make a Intelligence saving throw or become completely enraged, attacking any and all targets within its range. This effect can be maintained with concentration."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fluff":{
+                "entries":[
+                    "One of the only remaining pieces of Cthulhu left after his destruction at the hands of District 51, this bone holds now the power of the Corpse Gods"
+                ]
+            },
+            "hasFluff":true,
+            "charges": 3,
+            "recharge":"restLong"
+        },
+        {
+            "name": "Detection Charm",
+            "source":"Expleda",
+            "page":"0",
+            "wondrous": true,
+            "rarity": "rare",
+            "entries":[
+                "1/day, as an action, a creature with this item can ask the crystal ball to detect if there is something of the creature's choosing within a 100 ft radius.",
+                "This can be anything as broad as other life and magic, to something as specific as a specific creature. This same logic can be applied to anything the creature could think of.",
+                "If the item does indeed detect the chosen item or creature, it will create an arrow pointing in the direction of the chosen item or creature."
+            ],
+            "fluff":{
+                "entries":[
+                    "A small, crystal ball hanging from a copper chain that appears to contain a gray mist from within. A creature can use this item to detect the presence of nearby forces, such as certain creatures, magics, or traps."
+                ]
+            },
+            "charges":1,
+            "recharge":"dawn"
+        },
+        {
+            "name": "Heroes' Ration",
+            "source":"Expleda",
+            "page": 0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "The item has 1 charge on it that it regains at dawn. As an action, the user summons a bountiful meal for them to consume within the bento box. The meal takes 1 hour to consume and grants the same effects of the heroes' feast spell."
+            ],
+            "charges":1,
+            "recharge":"dawn",
+            "fluff":{
+                "entries":[
+                    "A small, red bento box enchanted with a version of the spell {@spell heroes feast} designed specifically for ease of transport and personal use."
+                ]
+            },
+            "hasFluff":true,
+            "attachedSpells":[
+                "heroes feast"
+            ]
+        },
+        {
+            "name":"Implosion Earring",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "Once per day, as a reaction, the creature can use the earring to turn any spell effect that emerges as a radius that the creature can physically see to only occur within the 5ft cube/point in which it originated from.",
+                "Any creatures still within the 5ft cube/point will still suffer the full effects of the spell effect"
+            ],
+            "charges":1,
+            "recharge":"dawn",
+            "fluff":{
+                "entries":[
+                    "A silver earring with a clear glass bulb hanging at the bottom of it that contains a spinning, black vortex within it. This earring allows the user to displace the vortex within the earring in such a way that it can cause sudden explosions and radiating effects to implode in on themselves."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name": "Imp in a box",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"rare",
+            "entries":[
+                "The box begins with 5 charges.",
+                "As an action, a creature can summon an {@creature imp} that loyally serves them",
+                "When the imp dies or 8 hours have passed, the imp disappears into a puff of black smoke that returns to The Imp in the Box."
+            ],
+            "charges":5,
+            "recharge":"dawn",
+            "fluff":{
+                "entries":[
+                    "A black box inscribed with markings and phrases in infernal that has a constant smell of sulfur and brimstone emanating from it."
+                ]
+            },
+            "hasFluff": true
+        },
+        {
+            "name": "Locket of Remembrance",
+            "source": "Expleda",
+            "page": 0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "Any creature that is not the original owner of the memories that opens the locket must make a DC 20 Wisdom saving throw or incorporate the memories of the other creature into their mind, believing them to be their own. ",
+                "A creature can spend one hour to replace the memories inside without having to open the locket."
+            ],
+            "fluff":{
+                "entries":[
+                    "A jade locket containing a granite slab inside of its interior. A creature can use this item to record all of their current memories within it, granting them the ability to recall any and all information they remembered at the time the locket was used. ",
+                    "While the locket requires an hour to record the memories of a creature, it only requires an action to restore the memories held within to the creature opening the locket"
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Minu Teieoma",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"legendary",
+            "entries":[
+                "As an action, two creatures can pierce their hands with the nail simultaneously. ",
+                "Once done, the two creatures can exchange charges of their class or racial features to restore class or racial features of the creature that pierced the nail.",
+                "If trading a class feature use in to restore one for the other creature, it must have been unlocked at or above the level the class feature that you are trying to regain the use of. ",
+                "Once the trade-in is completed, the traded-in class feature or racial trait is counted as expended."
+            ],
+            "fluff":{
+                "entries":[
+                    "A doubled-edged nail that has Corrupted Script inscribed on it that roughly translates to \"What's Mine is Yours\"."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Monkey's Paw",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"legendary",
+            "entries":[
+                "As an action, a creature can use The Monkey's Paw to cast the wish spell.", 
+                "The spell is cast as per the creature's desire, but the end result is twisted to cause unexpected drawbacks or (if the creature is very wise with their wording) the creature pays some kind of heavy price determined by the DM."
+            ],
+            "fluff":{
+                "entries":[
+                    "A mummified paw of a monkey with three fingers held up that holds within it the very power to shape reality, but at a terrible cost to the user."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Pins of Enchantment Sharing",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"legendary",
+            "entries":[
+                "A creature can attaching the two pins to a set of magic items, resulting in the pinned items sharing their magical properties. ",
+                "The magical items must be able to be pinned without damaging either pin as a broken pin will result in the pins losing their magical properties.",
+                "Any per day uses shared by either item can still only be used as stated by the original item, but these effects can be channeled through either pinned item."
+            ],
+            "fluff":{
+                "entries":[
+                    "A pair of small, golden pins with a diamond affixed to their tops."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Potion of Asura's Wrath",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "As an action, a creature can drink this potion and gain another set of functioning arms for 1 minute. ",
+                "These arms are capable of holding another weapon that the creature can normally carry. ",
+                "If in armor, the armor morphs to accommodate these new arms. ",
+                "The creature can use another Action while they have these arms, but only actions that the creature's arms would be capable of.",
+                "At the end of 1 minute, the arms shrivel up and fall off the creature's body."
+            ],
+            "fluff":{
+                "entries":[
+                    "A potion bottle filled with a blood red liquid with flowing blue streaks throughout the concoction."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Potion of Mine is Yours",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "When a creature intends to use this potion, they must first drop some of their blood within the mixture. After 6 seconds, the potion is ready to be used. ",
+                "The creature chooses one of their class features and/or natural abilities or traits and loses it immediately upon dropping their blood within the mixture. ",
+                "Any creature that then drinks the potion gains that class feature, ability, or trait for a period of 1 hour. ",
+                "Once the hour is up, the class feature, ability, or trait is returned to its original host. ",
+                "If the class feature, ability, or trait has a limited number of uses per day, the creature gains whatever remains of the class feature's/ability's/traits's charges for that day to use. ",
+                "When the feature/ability/trait is transfered back, the original user can only use what the creature did not expend themselves. ",
+                "The potion lasts for 1 hour."
+            ],
+            "fluff":{
+                "entries":[
+                    "A potion bottle filled with a clear liquid and a sharp needle atop its cork, but once a user drops their blood within the bottle the mixture swells with black and red lines in a vortex pattern."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Potion of Transcendent Healing",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"legendary",
+            "entries":[
+                "You can as an action drink this potion to regain {@h 20d4+40} hit points."
+            ]
+        },
+        {
+            "name":"Potion of Retrospection",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"artifact",
+            "entries":[
+                "When you drink this potion, you can change your current class levels, ability score improvements, and feats into that of any other. ",
+                "In situations in which you cannot remember what you gained during an Ability Score Improvement, choose a one or two Attributes that are key to your class and subtract either 2 from the one or 1 from the two."
+            ],
+            "fluff":{
+                "entries":[
+                    "This potion seems to spiral unnaturally, containing visions into another world where you made different life choices."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Potion of Wound Transferal",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"rare",
+            "entries":[
+                "As an action, a creature can ingest the potion while another applies the salve to their body. ",
+                "Any and all wounds are then immediately transfered to the creature that applied the salve, essentially healing the creature that drank the amber liquid."
+            ],
+            "fluff":{
+                "entries":[
+                    "A potion bottle filled with a amber liquid with a small container of blue salve hanging from the neck of the bottle by a thread."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+            "name":"Potion of Yours is Mine",
+            "source":"Expleda",
+            "page":0,
+            "wondrous":true,
+            "rarity":"very rare",
+            "entries":[
+                "When a creature intends to use this potion, they must first drop some of their blood within the mixture. After 6 seconds, the potion is ready to be used.",
+                "The creature then radiates a black aura around their body. Once the creature physically touches another creature, the creature must make a Wisdom saving throw equal to 8 + the creature's proficiency modifier + Wisdom modifier. If the touched creature fails the save, the creature may then steal on of the touched creature's features/abilities/traits.",
+                "If the class feature, ability, or trait has a limited number of uses per day, the creature gains whatever remains of the class feature's/ability's/traits's charges for that day to use. When the feature/ability/trait is transfered back, the original user can only use what the creature did not expend themselves."
+            ],
+            "fluff":{
+                "entries":[
+                    "A potion bottle filled with a clear liquid and a sharp needle atop its cork, but once a user drops their blood within the bottle, the mixture turns an abyssal black."
+                ]
+            },
+            "hasFluff":true
+        },
+        {
+           "name":"Tshala's Gift",
+           "source":"Expleda",
+           "page":0,
+           "wondrous":true,
+           "rarity":"very rare",
+           "entries":[
+               "When a creature scatters this soil on any piece of dirt, it becomes unnaturally fertile. Any dead soil and plant life is converted into nutritious soil and mulch. Any plants placed into this ground grow to maturity within a week of being planted in this new soil. The bag of soil can be used to apply this effect to up to 1 acre of land.",
+               "If a creature uses the soil in a pot or a half-acre of land, any plant put into the soil grows to maturity within 1 day of being within the soil."
+           ],
+           "fluff":{
+               "entries":[
+                   "A bag of soil from The Bounty blessed by The Goddess of Plants, Tshala, herself. The soil contains within it powerful, deific magics and blessings that grant the soil the power to grant unnatural fertility to plant life."
+               ]
+           },
+           "hasFluff":true
+        }
+    ]   
+}
+

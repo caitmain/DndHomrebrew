@@ -1,0 +1,16 @@
+"itemType": [
+    {
+        "abbreviation": "AAS",
+        "source": "Expleda",
+        "name": "artificial arcane soul",
+        "entries": [
+            {
+                "type": "entries",
+                "name": "Artificial Arcane Soul",
+                "entries": [
+                    "This item is connected to the AAS network. It uses magic by emulating a soul."
+                ]
+            }
+        ]
+    }
+]

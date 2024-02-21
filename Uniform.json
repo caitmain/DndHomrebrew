@@ -1,0 +1,71 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Expleda",
+                "abbreviation": "ELE",
+                "full": "Expleda's Literary Expansion",
+                "authors": [
+                    "The Hidden One"
+                ],
+                "convertedBy": [
+                    "Rin#5654"
+                ],
+                "version": "1.0",
+                "color": "15ECFA",
+                "url": "https://www.gmbinder.com/share/-Lym8JM-j-t6vFOfBs8q",
+                "targetSchema": "1.2"
+            }
+        ],
+        "itemProperty": [
+            {
+                "abbreviation": "AAS",
+                "source": "Expleda",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Artificial Arcane Soul",
+                        "entries": [
+                            "This item is connected to the AAS network. It uses magic by emulating a soul."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "damageType": [
+            {
+                "abbreviation": "U",
+                "source": "Expleda",
+                "name": "True"
+            }
+        ],
+        "dateAdded": 1615908595,
+        "dateLastModified": 1615908595
+    },
+    "item": [
+        {
+            "name": "School Uniform",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "School Uniform, ",
+                "source": "Expleda",
+                "page": 0,
+                "rarity": "common",
+                "entries":[
+                    "Umbara University issued uniform."
+                ]
+            },
+            "source":"Expleda",
+            "page":0,
+            "rarity":"common",
+            "entries":[
+                "Umbara University issued uniform."
+            ]
+        }
+    ]
+}

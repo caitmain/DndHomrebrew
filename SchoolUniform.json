@@ -1,0 +1,320 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Expleda",
+                "abbreviation": "ELE",
+                "full": "Expleda's Literary Expansion",
+                "authors": [
+                    "The Hidden One"
+                ],
+                "convertedBy": [
+                    "Rin#5654"
+                ],
+                "version": "1.0",
+                "color": "15ECFA",
+                "url": "https://www.gmbinder.com/share/-Lym8JM-j-t6vFOfBs8q",
+                "targetSchema": "1.2"
+            }
+        ],
+        "itemProperty": [
+            {
+                "abbreviation": "AAS",
+                "source": "Expleda",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Artificial Arcane Soul",
+                        "entries": [
+                            "This item is connected to the AAS network. It uses magic by emulating a soul."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "damageType": [
+            {
+                "abbreviation": "U",
+                "source": "Expleda",
+                "name": "True"
+            }
+        ],
+        "dateAdded": 1615908595,
+        "dateLastModified": 1615908595
+    },
+    "item": [
+        {
+            "name": "School Uniform",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "School Uniform, ",
+                "source": "Expleda",
+                "page": 0,
+                "rarity": "common",
+                "entries":[
+                    "Umbara University issued uniform."
+                ]
+            },
+            "source":"Expleda",
+            "page":0,
+            "rarity":"common",
+            "entries":[
+                "Umbara University issued uniform."
+            ],
+            "variants": [
+                {
+                    "specificVariant": {
+                        "name": "School Uniform, Artificer",
+                        "source":"Expleda",
+                        "type": "LA",
+                        "rarity":"common",
+                        "weight": 5,
+                        "ac": 12,
+                        "armor": true,
+                        "entries":[
+                            "Can store Tinker's Tools within the sleeves for ease of access."
+                        ],
+                        "page": 0,
+                        "genericVariant": {
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Barbarian",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":10,
+                        "armor":false,
+                        "entries":[
+                            "Blood and other bodily fluids flow off the uniform like water."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Bard",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":12,
+                        "armor":true,
+                        "entries":[
+                            "Integrated speakers for sound amplification."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name": "School Uniform, Cleric",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":13,
+                        "armor":true,
+                        "entries":[
+                            "Constantly gathers and stores Kindling for later use."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Druid",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":13,
+                        "armor":true,
+                        "entries":[
+                            "Unable to be stained or sullied by natural elements."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Fighter",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":14,
+                        "armor":true,
+                        "entries":[
+                            "Has customizable loops and hooks for comfortable weapon storage."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Monk",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":false,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":10,
+                        "entries":[
+                            "Built with aerodynamics in mind to allow for ease of use in acrobatics."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Paladin",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":true,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":14,
+                        "entries":[
+                            "Constantly gathers and stores Kindling for later use."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Ranger",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":true,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":13,
+                        "entries":[
+                            "Slightly camouflages into local environment of favored terrain."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Rogue",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":true,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":12,
+                        "entries":[
+                            "Its cloth absorbs light to aid in stealth."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Sorcerer",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":false,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":10,
+                        "entries":[
+                            "Heavily resistant to damage from magical effects."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Warlock",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":false,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":10,
+                        "entries":[
+                            "Acts as a direct link for the warlock's patreon to provide Kindling."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                },
+                {
+                    "specificVariant":{
+                        "name":"School Uniform, Wizard",
+                        "source":"Expleda",
+                        "type":"LA",
+                        "armor":false,
+                        "rarity":"common",
+                        "weight":5,
+                        "ac":10,
+                        "entries":[
+                            "Creates a holoscreen for ease of spellbook reference."
+                        ],
+                        "page":0,
+                        "genericVariant":{
+                            "name":"School Uniform",
+                            "source":"Expleda"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
